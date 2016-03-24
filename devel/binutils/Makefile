@@ -34,7 +34,6 @@ CONFIG_SHELL=		ksh
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-lib-path='/lib:/usr/lib'
 CONFIGURE_ARGS+=	--program-prefix=g
-CONFIGURE_ARGS+=	--without-zlib
 BINUTILS_PREFIX=	${PREFIX}/${MACHINE_GNU_PLATFORM}
 
 # Joyent changes to avoid pulling in unwanted dependencies.
