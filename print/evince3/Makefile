@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.48 2016/03/05 11:29:16 jperkin Exp $
+# $NetBSD: Makefile,v 1.50 2016/04/15 14:42:53 wiz Exp $
 
 PKGREVISION= 1
 .include "../../print/evince3/Makefile.common"

@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.875 2016/04/12 16:08:05 prlw1 Exp $
+# $NetBSD: Makefile,v 1.879 2016/04/16 14:47:49 wen Exp $
 #
 
 COMMENT=	Text processing utilities (does not include desktop publishing)
@@ -17,6 +17,7 @@ SUBDIR+=	R-highr
 SUBDIR+=	R-markdown
 SUBDIR+=	R-stringi
 SUBDIR+=	R-stringr
+SUBDIR+=	R-yaml
 SUBDIR+=	WordNet
 SUBDIR+=	aha
 SUBDIR+=	aiksaurus
@@ -450,6 +451,7 @@ SUBDIR+=	p5-POD2-Base
 SUBDIR+=	p5-PPI-HTML
 SUBDIR+=	p5-Pod-Abstract
 SUBDIR+=	p5-Pod-Coverage
+SUBDIR+=	p5-Pod-Coverage-TrustPod
 SUBDIR+=	p5-Pod-Elemental
 SUBDIR+=	p5-Pod-Elemental-PerlMunger
 SUBDIR+=	p5-Pod-Escapes
@@ -486,6 +488,7 @@ SUBDIR+=	p5-String-RewritePrefix
 SUBDIR+=	p5-String-ShellQuote
 SUBDIR+=	p5-String-Similarity
 SUBDIR+=	p5-String-ToIdentifier-EN
+SUBDIR+=	p5-String-Trim
 SUBDIR+=	p5-String-Truncate
 SUBDIR+=	p5-Swim
 SUBDIR+=	p5-Syntax-Highlight-Engine-Kate
@@ -544,6 +547,7 @@ SUBDIR+=	p5-Text-RewriteRules
 SUBDIR+=	p5-Text-Sass
 SUBDIR+=	p5-Text-Shellwords
 SUBDIR+=	p5-Text-SimpleTable
+SUBDIR+=	p5-Text-SimpleTable-AutoWidth
 SUBDIR+=	p5-Text-Soundex
 SUBDIR+=	p5-Text-SpellChecker
 SUBDIR+=	p5-Text-Substitute
