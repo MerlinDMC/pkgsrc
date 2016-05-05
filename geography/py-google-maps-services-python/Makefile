@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/googlemaps/google-maps-services-python/
 COMMENT=	Python client library for Google Maps API Web Services
 LICENSE=	apache-2.0
 
-DEPENDS+=	${PYPKGPREFIX}-requests<=2.9.1:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-requests<=2.11.0:../../devel/py-requests
 
 EGG_NAME=	googlemaps-${PKGVERSION_NOREV}
 PYTHON_VERSIONS_INCOMPATIBLE=	33
