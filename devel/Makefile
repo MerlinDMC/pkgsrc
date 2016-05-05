@@ -2075,6 +2075,7 @@ SUBDIR+=	sgi-stl-docs
 SUBDIR+=	shtk
 SUBDIR+=	silc-toolkit
 SUBDIR+=	slib
+SUBDIR+=	slibtool
 SUBDIR+=	sml-mode
 SUBDIR+=	snappy
 SUBDIR+=	snappy-java10

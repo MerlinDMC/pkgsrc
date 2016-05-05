@@ -93,8 +93,8 @@ BUILD_DEPENDS+=		libtool-fortran>=${_OPSYS_LIBTOOL_REQD:U${LIBTOOL_REQD}}:../../
 PKG_LIBTOOL?=		${CROSSBASE}/bin/libtool
 PKG_SHLIBTOOL?=		${CROSSBASE}/bin/shlibtool
 .  else
-PKG_LIBTOOL?=		${LOCALBASE}/bin/libtool
-PKG_SHLIBTOOL?=		${LOCALBASE}/bin/shlibtool
+PKG_LIBTOOL?=		${LOCALBASE}/bin/clibtool
+PKG_SHLIBTOOL?=		${LOCALBASE}/bin/clibtool
 .  endif
 .endif
 LIBTOOL?=		${WRAPPER_BINDIR}/libtool
@@ -104,7 +104,7 @@ LIBTOOL_REQD?=		2.2.6bnb3
 .if !empty(USE_CROSS_COMPILE:M[yY][eE][sS])
 TOOL_DEPENDS+=		cross-libtool-base-${MACHINE_ARCH}>=${_OPSYS_LIBTOOL_REQD:U${LIBTOOL_REQD}}:../../cross/libtool-base
 .else
-TOOL_DEPENDS+=		libtool-base>=${_OPSYS_LIBTOOL_REQD:U${LIBTOOL_REQD}}:../../devel/libtool-base
+TOOL_DEPENDS+=		slibtool>=0:../../devel/slibtool
 .endif
 CONFIGURE_ENV+=		LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}"
 MAKE_ENV+=		LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}"

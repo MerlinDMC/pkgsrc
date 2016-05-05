@@ -1,0 +1,8 @@
+$NetBSD$
+
+SHA1 (slibtool-0.5.2-9eda979fc5ebc5bdf6056e24fc2af787bee3eea2.tar.gz) = 2e91677bfe90c719591dcf7b2b305d96d026eb0c
+RMD160 (slibtool-0.5.2-9eda979fc5ebc5bdf6056e24fc2af787bee3eea2.tar.gz) = 5c08a2477b6145f3f9a58f16a2b08564a576a111
+SHA512 (slibtool-0.5.2-9eda979fc5ebc5bdf6056e24fc2af787bee3eea2.tar.gz) = 1a75d4f192a5aba038ca2a9253c0ed1e19d37267971dccaa79c78bc28b07e0e50cea3b448f421ad05bacc9f269542be060ab9f46b91a699298bff59bebb27c2a
+Size (slibtool-0.5.2-9eda979fc5ebc5bdf6056e24fc2af787bee3eea2.tar.gz) = 51363 bytes
+SHA1 (patch-src_logic_slbt__exec__execute.c) = 3fdbb1576eb4aacdb01b3670ef4a15a31bdd869f
+SHA1 (patch-src_logic_slbt__exec__link.c) = 8c02f5c3b453cb0b253b81513f9ef350b48a7ab2
